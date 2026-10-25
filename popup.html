@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Codeforces Zen Mode</title>
+    <style>
+        :root {
+            --bg-color: #121214;
+            --card-bg: #1a1a1e;
+            --border-color: #2a2a30;
+            --text-primary: #f0f0f5;
+            --text-secondary: #9898a6;
+            --accent-glow: #3b82f6;
+            --accent-gradient: linear-gradient(135deg, #3b82f6, #1d4ed8);
+        }
+
+        body {
+            width: 260px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 16px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .header h1 {
+            font-size: 14px;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: 0.5px;
+            background: linear-gradient(90deg, #60a5fa, #3b82f6);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 14px;
+            transition: border-color 0.2s ease;
+        }
+
+        .card:hover {
+            border-color: #3f3f46;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .title-area span {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .desc {
+            font-size: 11px;
+            color: var(--text-secondary);
+            line-height: 1.4;
+            margin: 0;
+        }
+
+        /* Sleek Modern Toggle Switch */
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 40px;
+            height: 22px;
+            flex-shrink: 0;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-color: #27272a;
+            transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 22px;
+            border: 1px solid #3f3f46;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 16px;
+            left: 2px;
+            bottom: 2px;
+            background-color: var(--text-secondary);
+            transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border-radius: 50%;
+        }
+
+        input:checked + .slider {
+            background: var(--accent-gradient);
+            border-color: #60a5fa;
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(18px);
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Codeforces Zen</h1>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="title-area">
+                <span>Zen Mode</span>
+            </div>
+            <label class="switch">
+                <input type="checkbox" id="zenMode">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <p class="desc">Blocks standings page, hides raw solve counts from the dashboard, and replaces them with a relative difficulty index.</p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
