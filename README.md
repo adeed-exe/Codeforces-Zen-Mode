@@ -6,6 +6,8 @@ A browser extension designed to reduce contest anxiety by blocking access to liv
 
 * **Standings Guard:** Automatically blocks access to live standings so you can focus on beating the problems, not your friends.
 * **Difficulty Indexing:** Hides raw problem solve counts from the dashboard and replaces them with a relative difficulty index so you still know which problems to tackle first.
+<img width="1902" height="880" alt="image" src="https://github.com/user-attachments/assets/3c2bf111-8314-45c3-b4b7-3ab7d4050486" />
+<img width="1903" height="883" alt="image" src="https://github.com/user-attachments/assets/d1bc7992-138b-43e4-8177-9137c1bb13a3" />
 
 ## Installation
 
