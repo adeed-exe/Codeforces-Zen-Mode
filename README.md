@@ -16,6 +16,6 @@ Install it directly with one click from the [Firefox Add-ons Store](https://addo
 Since this extension is open-source and free, Chrome users can install it via developer mode:
 1. Download the latest source code zip from the [Releases tab](https://github.com/adeed-exe/Codeforces-Zen-Mode/releases/tag/v1.0).
 2. Extract the ZIP file to a folder on your computer.
-3. Open Google Chrome and go to `chrome://extensions/`.
+3. Open Google Chrome or Brave and go to `chrome://extensions/`.
 4. Enable **Developer mode** using the toggle switch in the top-right corner.
 5. Click **Load unpacked** in the top-left corner and select your extracted extension folder.
