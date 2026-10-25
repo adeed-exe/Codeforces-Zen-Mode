@@ -12,7 +12,7 @@ A browser extension designed to reduce contest anxiety by blocking access to liv
 ### Firefox
 Install it directly with one click from the [Firefox Add-ons Store](https://addons.mozilla.org/firefox/addon/cf-zen-mode/).
 
-### Chrome (Manual Setup)
+### Chrome/Brave (Manual Setup)
 Since this extension is open-source and free, Chrome users can install it via developer mode:
 1. Download the latest source code zip from the [Releases tab](https://github.com/adeed-exe/Codeforces-Zen-Mode/releases/tag/v1.0).
 2. Extract the ZIP file to a folder on your computer.
