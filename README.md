@@ -1,11 +1,12 @@
 # Codeforces Zen Mode
 
-A browser extension designed to reduce contest anxiety by blocking access to live standings and obfuscating raw problem solve counts with a calculated difficulty index.
+A browser extension designed to reduce contest anxiety by blocking access to live standings and obfuscating raw problem solve counts, with a single master toggle switch.
 
 ## What It Does
 
-* **Standings Guard:** Automatically blocks access to live standings so you can focus on beating the problems, not your friends.
+* **Standings Guard:** Completely blocks access to live standings so you can focus on beating the problems, not other contestants.
 * **Difficulty Indexing:** Hides raw problem solve counts from the dashboard and replaces them with a relative difficulty index so you still know which problems to tackle first.
+
 <img width="1903" height="761" alt="image" src="https://github.com/user-attachments/assets/a2ff5e29-d956-4f4f-9431-59eb803ddd2c" />
 <img width="1901" height="764" alt="image" src="https://github.com/user-attachments/assets/463c9909-771a-4686-8d73-48c0fcfba251" />
 
